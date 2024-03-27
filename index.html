@@ -4,174 +4,349 @@
 <head>
   <title>Effective Solutions for Your Business</title>
   <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
   <link rel="stylesheet"
         href="./css/styles.css" />
   <link rel="preconnect"
-        href="https://fonts.googleapis.com" />
+        href="https://fonts.googleapis.com">
   <link rel="preconnect"
         href="https://fonts.gstatic.com"
-        crossorigin />
+        crossorigin>
 </head>
 
 <body>
   <header>
-    <nav class="menu">
-      <a href="./index.html"
-         class="logo"> Web <span class="studio">Studio</span> </a>
-      <ul class="menu-elements">
-        <li><a href="./index.html"
-             class="menu-nav-index"> Studio</a> </li>
-        <li><a href=""
-             class="menu-nav-index"> Portfolio</a> </li>
-        <li><a href=""
-             class="menu-nav-index"> Contacts</a> </li>
-      </ul>
-    </nav>
-    <address class="contacts">
-      <ul class="social-links">
-        <li><a href="mailto:info@devstudio.com"
-             class="email-telefon">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111"
-             class="email-telefon">+11 (000) 111-11-11 </a></li>
-      </ul>
-    </address>
+    <div class="container header-container">
+      <nav class="menu">
+        <a href="./index.html"
+           class="logo"> Web <span class="studio">Studio</span> </a>
+        <ul class="menu-elements">
+          <li class="menu-elements"><a href="./index.html"
+               class="menu-nav-index"
+               target="_blank"> Studio</a> </li>
+          <li class="menu-elements"><a href=""
+               class="menu-nav-index"
+               target="_blank"> Portfolio</a> </li>
+          <li class="menu-elements"><a href=""
+               class="menu-nav-index"
+               target="_blank"> Contacts</a> </li>
+        </ul>
+      </nav>
+      <address class="contacts">
+        <ul class="social-links">
+          <li><a href="mailto:info@devstudio.com"
+               class="email-telefon">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111"
+               class="email-telefon">+11 (000) 111-11-11 </a></li>
+        </ul>
+      </address>
+    </div>
   </header>
   <main>
     <!-- Section-1 -->
     <section class="box-hero-image">
-      <h1 class="hero-image">Effective Solutions for Your Business</h1>
-      <button type="button"
-              name="Order Service"
-              class="botton">Order Service</button>
+      <div class="container">
+        <h1 class="hero-image">Effective Solutions for Your Business</h1>
+        <button type="button"
+                name="Order Service"
+                class="botton">Order Service</button>
+      </div>
     </section>
+
+    <!-- Sprite -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         aria-hidden="true"
+         style="position: absolute; width: 0; height: 0; overflow: hidden">
+      <defs>
+        <symbol id="icon-Icon-1"
+                viewBox="0 0 75 32">
+          <path fill="#f4f4fd"
+                d="M1.143.143h73.143a1 1 0 0 1 1 1v29.714a1 1 0 0 1-1 1H1.143a1 1 0 0 1-1-1V1.143a1 1 0 0 1 1-1z"
+                style="fill: var(--color1, #f4f4fd)" />
+          <path fill="#2e2f42"
+                d="m46.156 19.484-4.825-4.86.535-2.637c.138.054.285.082.433.083h.004a1.234 1.234 0 1 0-1.148-.82l-2.834.346-4.623-4.647a.301.301 0 0 0-.428-.002l-.864.859a.305.305 0 0 0 0 .431l.465.472a8.537 8.537 0 0 0 1.44 10.093.311.311 0 0 0 .083.056 1.823 1.823 0 0 0-.03.313v3.535h-3.657a1.526 1.526 0 0 0-1.524 1.524v.61c0 .168.137.305.305.305h14.019a.305.305 0 0 0 .305-.305v-.61a1.526 1.526 0 0 0-1.524-1.524h-3.657v-1.567c.573.12 1.157.181 1.742.183a8.496 8.496 0 0 0 4.023-1.019l.467.47a.301.301 0 0 0 .428.002l.864-.859a.305.305 0 0 0 0-.431zm-4.282-9.065a.61.61 0 1 1 .429 1.041h-.002a.609.609 0 0 1-.426-1.042h-.001zm-.717 2.002-.342 1.683-.672-.676 1.014-1.008zm-.346-.515-1.097 1.091-.849-.853 1.946-.237zm1.477 11.408c.505 0 .914.409.914.914v.305H29.793v-.305c0-.505.409-.914.914-.914h11.581zm-4.267-1.219v.61h-3.048v-.61h3.048zm-3.047-.609V19.17c0-.739.684-1.341 1.524-1.341s1.524.602 1.524 1.341v2.316h-3.048zm3.657-.969V19.17c0-1.075-.957-1.95-2.133-1.95a2.169 2.169 0 0 0-1.875 1.021 7.924 7.924 0 0 1-1.302-9.078l10.63 10.691a7.899 7.899 0 0 1-5.319.665zm6.451-.391L33.049 8.023l.431-.43 4.534 4.56c.002 0 .003.004.006.005l7.494 7.538-.433.43z"
+                style="fill: var(--color2, #2e2f42)" />
+          <path fill="#4d5ae5"
+                d="M36.5 18.438h-.003a.915.915 0 0 0-.002 1.829h.003a.915.915 0 0 0 .003-1.829zm.214 1.13a.305.305 0 1 1-.216-.521.304.304 0 0 1 .213.521h.003z"
+                style="fill: var(--color3, #4d5ae5)" />
+        </symbol>
+        <symbol id="icon-Icon-2"
+                viewBox="0 0 75 32">
+          <path fill="#f4f4fd"
+                d="M1.143.143h73.143a1 1 0 0 1 1 1v29.714a1 1 0 0 1-1 1H1.143a1 1 0 0 1-1-1V1.143a1 1 0 0 1 1-1z"
+                style="fill: var(--color1, #f4f4fd)" />
+          <path fill="#2e2f42"
+                d="M46.455 15.601a8.746 8.746 0 1 0-11.406 8.332.385.385 0 0 0 .303-.038.365.365 0 0 0 .162-.204l2.209-7a1.094 1.094 0 1 0-.481-2.078l-2.918-2.918a.364.364 0 0 0-.515.515l2.916 2.919a1.071 1.071 0 0 0 .306 1.319l-2.104 6.67c-4.159-1.532-6.288-6.145-4.756-10.304s6.145-6.288 10.304-4.756a8.024 8.024 0 0 1 .492 14.86l-.227-1.071a.364.364 0 0 0-.599-.196l-2.193 1.957a.363.363 0 0 0 .132.619l2.799.893a.365.365 0 0 0 .468-.422l-.223-1.051a8.718 8.718 0 0 0 5.331-8.051zm-8.745-.365a.365.365 0 1 1 0 .73.365.365 0 0 1 0-.73zm1.2 8.494 1.248-1.113.345 1.623-1.593-.51z"
+                style="fill: var(--color2, #2e2f42)" />
+          <path fill="#4d5ae5"
+                d="M37.345 8.677v.729a.364.364 0 0 0 .729 0v-.729a.364.364 0 0 0-.729 0zM30.786 15.236a.364.364 0 0 0 0 .728h.729a.364.364 0 0 0 0-.728h-.729zM44.633 15.965a.365.365 0 1 0 0-.728h-.729a.364.364 0 0 0 0 .728h.729z"
+                style="fill: var(--color3, #4d5ae5)" />
+        </symbol>
+        <symbol id="icon-Icon-3"
+                viewBox="0 0 75 32">
+          <path fill="#f4f4fd"
+                d="M1.143.143h73.143a1 1 0 0 1 1 1v29.714a1 1 0 0 1-1 1H1.143a1 1 0 0 1-1-1V1.143a1 1 0 0 1 1-1z"
+                style="fill: var(--color1, #f4f4fd)" />
+          <path fill="#4d5ae5"
+                d="M37.1 15.408h.609v2.741H37.1v-2.741zM39.537 16.627h.609v1.523h-.609v-1.523zM34.663 17.541h.609v.609h-.609v-.609zM32.836 17.236h.609v.914h-.609v-.914z"
+                style="fill: var(--color3, #4d5ae5)" />
+          <path fill="#2e2f42"
+                d="M29.485 23.023h14.621a.914.914 0 0 0 .914-.914v-1.218a.914.914 0 0 0-.914-.914h-.305v-7.596l1.73-1.639a.92.92 0 1 0-.426-.436l-1.304 1.236v-.703a.914.914 0 0 0-.914-.914H30.703a.914.914 0 0 0-.914.914v9.138h-.305a.914.914 0 0 0-.914.914v1.218c0 .505.409.914.914.914zM45.934 9.621a.305.305 0 1 1 0 .61.305.305 0 0 1 0-.61zm-15.535 1.218c0-.168.136-.305.305-.305h12.184c.168 0 .305.136.305.305v1.279l-.609.579v-1.249a.305.305 0 0 0-.305-.305H31.313a.305.305 0 0 0-.305.305v7.615c0 .168.136.305.305.305h10.966a.305.305 0 0 0 .305-.305v-5.528l.609-.577v7.019H30.4v-9.138zm2.742 3.96a.914.914 0 1 0 .633 1.571l1.059.531a.304.304 0 0 0 .364-.07l2.251-2.532 2.213 1.658a.306.306 0 0 0 .392-.022l1.923-1.822v4.646H31.619v-7.006h10.357v1.52l-2.155 2.041-2.231-1.673a.304.304 0 0 0-.41.041l-2.282 2.567-.853-.427c.006-.037.01-.073.012-.111a.914.914 0 0 0-.914-.914zm.304.914a.306.306 0 1 1-.611-.001.306.306 0 0 1 .611.001zm1.828 4.874h3.046v.305a.305.305 0 0 1-.305.305h-2.437a.305.305 0 0 1-.305-.305v-.305zm-6.092.304c0-.168.137-.305.305-.305h5.178v.305c0 .505.409.914.914.914h2.437a.914.914 0 0 0 .914-.914v-.305h5.178c.168 0 .305.136.305.305v1.218a.306.306 0 0 1-.305.305H29.486a.305.305 0 0 1-.305-.305v-1.218z"
+                style="fill: var(--color2, #2e2f42)" />
+        </symbol>
+        <symbol id="icon-Icon-4"
+                viewBox="0 0 75 32">
+          <path fill="#f4f4fd"
+                d="M1.143.143h73.143a1 1 0 0 1 1 1v29.714a1 1 0 0 1-1 1H1.143a1 1 0 0 1-1-1V1.143a1 1 0 0 1 1-1z"
+                style="fill: var(--color1, #f4f4fd)" />
+          <path fill="#4d5ae5"
+                d="M46.842 9.442a.305.305 0 0 0-.246-.207l-1.091-.159-.489-.989c-.103-.208-.444-.208-.547 0l-.489.989-1.092.159a.305.305 0 0 0-.169.519l.79.77-.187 1.087a.306.306 0 0 0 .442.321l.977-.514.977.514a.307.307 0 0 0 .321-.023.304.304 0 0 0 .121-.298l-.186-1.087.79-.77a.304.304 0 0 0 .077-.312zm-1.407.759a.304.304 0 0 0-.087.27l.109.637-.572-.3a.31.31 0 0 0-.284 0l-.572.3.109-.637a.307.307 0 0 0-.087-.27l-.463-.451.639-.093a.303.303 0 0 0 .229-.167l.286-.579.286.579c.045.09.13.152.23.167l.639.093-.462.451zM43.505 18.584h-.609v.61h.609v-.61zM43.505 19.803h-.609v.61h.609v-.61z"
+                style="fill: var(--color3, #4d5ae5)" />
+          <path fill="#4d5ae5"
+                d="M44.114 19.194h-.609v.61h.609v-.61zM42.895 19.194h-.61v.61h.61v-.61zM41.371 21.937h-.609v.61h.609v-.61zM41.371 23.156h-.609v.61h.609v-.61zM41.981 22.546h-.61v.61h.61v-.61zM40.762 22.546h-.61v.61h.61v-.61zM37.714 20.718h-.609v.61h.609v-.61zM37.714 21.937h-.609v.61h.609v-.61zM38.324 21.327h-.609v.61h.609v-.61zM37.105 21.327h-.61v.61h.61v-.61zM31.924 10.355h-.609v.61h.609v-.61zM31.924 11.575h-.609v.61h.609v-.61zM32.533 10.965h-.609v.61h.609v-.61zM31.314 10.965h-.61v.61h.61v-.61z"
+                style="fill: var(--color3, #4d5ae5)" />
+          <path fill="#2e2f42"
+                d="M42.694 14.948a1.013 1.013 0 0 0-.679-.403 1.016 1.016 0 0 0-.766.201l-.715.549-1.085.81-.776-.309a3.966 3.966 0 0 0 2.351-3.611c0-2.185-1.784-3.962-3.978-3.962S33.068 10 33.068 12.185c0 .792.237 1.528.64 2.148l-1.579-.014h-.003c-.005 0-.009.002-.013.003a.277.277 0 0 0-.089.018c-.007.003-.015.004-.022.008l-.011.004-1.847.912h-.001l-1.082.52a1.018 1.018 0 0 0 1.012 1.766l.793-.422 1.294-.668.775-.005-3.11 3.095-.001.001-.765.762c-.181.18-.28.418-.28.673s.099.493.28.674a.96.96 0 0 0 1.349 0l.751-.748.995-.743.515.513-1.007 1.002-.001.001-.765.762c-.181.18-.28.418-.28.673s.099.493.28.674a.955.955 0 0 0 1.348 0l1.99-1.981.001-.001.577-.571-.002-.002c.004-.004.009-.005.013-.009l2.952-3.233 1.983.282a.3.3 0 0 0 .15-.019l.028-.013c.011-.006.023-.009.033-.015l1.836-1.219c.007-.005.01-.012.017-.017s.016-.008.023-.015l.727-.681c.378-.354.43-.934.121-1.35zm-12.905 2.064a.408.408 0 0 1-.319.03.41.41 0 0 1-.122-.719l.751-.361.181.528.076.222-.567.301zm1.998-1.045-.885.457-.251-.733 1.158-.572-.023.848zm8.628-3.783c0 .525-.125 1.02-.342 1.463l-2.389-1.085a1.064 1.064 0 0 0-.45-.793l.837-2.777a3.358 3.358 0 0 1 2.345 3.193zm-6.736 0c0-1.848 1.511-3.352 3.368-3.352.145 0 .286.012.426.03l-.818 2.716c-.011 0-.021-.003-.033-.003-.59 0-1.07.479-1.07 1.067s.48 1.067 1.07 1.067c.397 0 .74-.219.925-.54l2.207 1.003a3.369 3.369 0 0 1-6.075-1.986zm3.404.457c0 .252-.207.457-.461.457s-.461-.205-.461-.457.207-.457.461-.457a.46.46 0 0 1 .461.457zm-7.103 8.585a.346.346 0 0 1-.589-.242c0-.091.036-.177.101-.241l.55-.548.486.484-.548.546zm1.836 2.134a.346.346 0 0 1-.589-.242c0-.091.035-.176.101-.241l.55-.548.487.484-.548.546zm1.99-1.982-.001.001-1.009 1.006-.487-.484 1.008-1.003.001-.001c.023-.023.037-.05.051-.077.004-.008.012-.015.015-.023.009-.023.011-.049.015-.073.002-.014.008-.027.008-.041 0-.02-.007-.04-.012-.06-.004-.018-.004-.037-.011-.055a.309.309 0 0 0-.052-.079c-.006-.007-.008-.015-.014-.022l-.001-.001-.918-.914c-.01-.01-.022-.014-.033-.022-.016-.012-.032-.024-.05-.033s-.035-.014-.053-.019a.228.228 0 0 0-.059-.011c-.019-.001-.036.001-.055.003-.02.002-.039.005-.059.012s-.036.016-.054.026c-.011.006-.024.009-.035.016l-1.013.756-.515-.513 1.371-1.363 2.492 2.451-.53.525zm3.896-4.01c-.009-.001-.017.002-.026.002a.293.293 0 0 0-.066.004c-.017.003-.034.006-.05.012a.311.311 0 0 0-.102.062c-.007.006-.016.009-.023.017l-2.685 2.94-2.473-2.432 1.619-1.61a.305.305 0 0 0-.217-.52l-1.268.008.016-.919 1.774.015a3.972 3.972 0 0 0 3.578 1.13c.023.018.045.037.074.049l1.377.549.087.433.102.506-1.716-.244zm2.31.102-.179-.89.827-.617.217.287.325.431-1.189.789zm2.145-1.618-.479.449-.532-.706.475-.364a.414.414 0 0 1 .585.08.407.407 0 0 1-.049.541z"
+                style="fill: var(--color2, #2e2f42)" />
+          <path fill="#2e2f42"
+                d="m36.344 17.454-1.225-1.219a.304.304 0 0 0-.43 0l-1.224 1.219a.308.308 0 0 0 0 .432l1.224 1.219a.304.304 0 0 0 .43 0l1.225-1.219a.307.307 0 0 0 0-.432zm-1.439 1.005-.792-.789.792-.789.793.789-.793.789zM38.38 9.755l-.147.592c.041.01.993.258.993 1.228h.609c0-1.153-.952-1.695-1.455-1.82zM39.835 12.184h-.609v.61h.609v-.61z"
+                style="fill: var(--color2, #2e2f42)" />
+        </symbol>
+        <symbol id="icon-facebook"
+                viewBox="0 0 32 32">
+          <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z" />
+        </symbol>
+        <symbol id="icon-instagram"
+                viewBox="0 0 32 32">
+          <path
+                d="M16 2.881c4.275 0 4.781.019 6.462.094 1.563.069 2.406.331 2.969.55a4.952 4.952 0 0 1 1.837 1.194 5.015 5.015 0 0 1 1.2 1.838c.219.563.481 1.412.55 2.969.075 1.688.094 2.194.094 6.463s-.019 4.781-.094 6.463c-.069 1.563-.331 2.406-.55 2.969a4.94 4.94 0 0 1-1.194 1.837 5.02 5.02 0 0 1-1.837 1.2c-.563.219-1.413.481-2.969.55-1.688.075-2.194.094-6.463.094s-4.781-.019-6.463-.094c-1.563-.069-2.406-.331-2.969-.55a4.952 4.952 0 0 1-1.838-1.194 5.02 5.02 0 0 1-1.2-1.837c-.219-.563-.481-1.413-.55-2.969-.075-1.688-.094-2.194-.094-6.463s.019-4.781.094-6.463c.069-1.563.331-2.406.55-2.969a4.964 4.964 0 0 1 1.194-1.838 5.015 5.015 0 0 1 1.838-1.2c.563-.219 1.412-.481 2.969-.55 1.681-.075 2.188-.094 6.463-.094zM16 0c-4.344 0-4.887.019-6.594.094-1.7.075-2.869.35-3.881.744-1.056.412-1.95.956-2.837 1.85a7.833 7.833 0 0 0-1.85 2.831C.444 6.538.169 7.7.094 9.4.019 11.113 0 11.656 0 16s.019 4.887.094 6.594c.075 1.7.35 2.869.744 3.881.413 1.056.956 1.95 1.85 2.837a7.82 7.82 0 0 0 2.831 1.844c1.019.394 2.181.669 3.881.744 1.706.075 2.25.094 6.594.094s4.888-.019 6.594-.094c1.7-.075 2.869-.35 3.881-.744 1.05-.406 1.944-.956 2.831-1.844s1.438-1.781 1.844-2.831c.394-1.019.669-2.181.744-3.881.075-1.706.094-2.25.094-6.594s-.019-4.887-.094-6.594c-.075-1.7-.35-2.869-.744-3.881a7.506 7.506 0 0 0-1.831-2.844A7.82 7.82 0 0 0 26.482.843C25.463.449 24.301.174 22.601.099c-1.712-.081-2.256-.1-6.6-.1z" />
+          <path
+                d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219A8.221 8.221 0 0 0 16 7.781zm0 13.55a5.331 5.331 0 1 1 0-10.663 5.331 5.331 0 0 1 0 10.663zM26.462 7.456a1.919 1.919 0 1 1-3.838 0 1.919 1.919 0 0 1 3.838 0z" />
+        </symbol>
+        <symbol id="icon-twitter"
+                viewBox="0 0 32 32">
+          <path
+                d="M32 7.075a12.941 12.941 0 0 1-3.769 1.031 6.601 6.601 0 0 0 2.887-3.631 13.21 13.21 0 0 1-4.169 1.594A6.565 6.565 0 0 0 22.155 4a6.563 6.563 0 0 0-6.563 6.563c0 .512.056 1.012.169 1.494A18.635 18.635 0 0 1 2.23 5.195a6.56 6.56 0 0 0-.887 3.3 6.557 6.557 0 0 0 2.919 5.463 6.565 6.565 0 0 1-2.975-.819v.081a6.565 6.565 0 0 0 5.269 6.437 6.574 6.574 0 0 1-2.968.112 6.588 6.588 0 0 0 6.131 4.563 13.17 13.17 0 0 1-9.725 2.719 18.568 18.568 0 0 0 10.069 2.95c12.075 0 18.681-10.006 18.681-18.681 0-.287-.006-.569-.019-.85A13.216 13.216 0 0 0 32 7.076z" />
+        </symbol>
+        <symbol id="icon-linkedin2"
+                viewBox="0 0 32 32">
+          <path
+                d="M12 12h5.535v2.837h.079c.77-1.381 2.655-2.837 5.464-2.837C28.92 12 30 15.637 30 20.367V30h-5.769v-8.54c0-2.037-.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509V30H12V12zM2 12h6v18H2V12zM8 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+        </symbol>
+      </defs>
+    </svg>
+    <!-- ------ -->
+
     <!-- Section-2 -->
     <section class="light-bg">
-      <h2 class="advantages">Advantages</h2>
-      <ul>
-        <li>
-          <h3 class="feature-text">Strategy</h3>
-          <p class="text">
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
-        <li>
-          <h3 class="feature-text">Punctuality</h3>
-          <p class="text">
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-        </li>
-        <li>
-          <h3 class="feature-text">Diligence</h3>
-          <p class="text">
-            Research and confirm brands that present the strongest digital
-            growth opportunities and minimize risk.
-          </p>
-        </li>
-        <li>
-          <h3 class="feature-text">Technologies</h3>
-          <p class="text">
-            Design practice focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
-          </p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="advantages">Advantages</h2>
+        <ul class="advantages">
+          <li class="advantages">
+            <svg class="icon"
+                 width="64"
+                 height="64"
+                 viewBox="0 0 64 64"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <use href="#icon-Icon-1"></use>
+            </svg>
+
+            <h3 class="feature-text">Strategy</h3>
+            <p class="text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li class="feature-text">
+            <svg class="icon"
+                 width="64"
+                 height="64"
+                 viewBox="0 0 64 64"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <use href="#icon-Icon-2"></use>
+            </svg>
+
+            <h3 class="feature-text">Punctuality</h3>
+            <p class="text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li class="feature-text">
+            <svg class="icon"
+                 width="64"
+                 height="64"
+                 viewBox="0 0 64 64"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <use href="#icon-Icon-3"></use>
+            </svg>
+
+            <h3 class="feature-text">Diligence</h3>
+            <p class="text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li class="feature-text">
+            <svg class="icon"
+                 width="64"
+                 height="64"
+                 viewBox="0 0 64 64"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <use href="#icon-Icon-4"></use>
+            </svg>
+
+            <h3 class="feature-text">Technologies</h3>
+            <p class="text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- Section-3 -->
     <section class="section-sss">
-      <h2 class="our-team">Our Team</h2>
-      <ul>
-        <li class="image">
-          <img src="./images/img.jpg"
-               alt="1-worker"
-               width="264" />
-          <h3 class="headteam">Mark Guerrero</h3>
-          <p class="teamed">Product Designer</p>
-        </li>
-        <li class="image">
-          <img src="./images/img2.jpg"
-               alt="2-worker"
-               width="264" />
-          <h3 class="headteam">Tom Ford</h3>
-          <p class="teamed">Frontend Developer</p>
-        </li>
-        <li class="image">
-          <img src="./images/img3.jpg"
-               alt="3-worker"
-               width="264" />
-          <h3 class="headteam">Camila Garcia</h3>
-          <p class="teamed">Marketing</p>
-        </li>
-        <li class="image">
-          <img src="./images/img4.jpg"
-               alt="4-worker"
-               width="264" />
-          <h3 class="headteam">Daniel Wilson</h3>
-          <p class="teamed">UI Designer</p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="our-team">Our Team</h2>
+        <ul class="our-team list">
+          <li class="image">
+            <img src="./images/img.jpg"
+                 alt="1-worker"
+                 width="264"
+                 height="260"
+                 class="ourteam-item-img" />
+            <div class="container-team-list">
+              <h3 class="headteam">Mark Guerrero</h3>
+              <p class="teamed">Product Designer</p>
+            </div>
+          </li>
+          <li class="image">
+            <img src="./images/img2.jpg"
+                 alt="2-worker"
+                 width="264"
+                 height="260"
+                 class="ourteam-item-img" />
+            <div class="container-team-list">
+              <h3 class="headteam">Tom Ford</h3>
+              <p class="teamed">Frontend Developer</p>
+            </div>
+          </li>
+          <li class="image">
+            <img src="./images/img3.jpg"
+                 alt="3-worker"
+                 width="264"
+                 height="260"
+                 class="ourteam-item-img" />
+            <div class="container-team-list">
+              <h3 class="headteam">Camila Garcia</h3>
+              <p class="teamed">Marketing</p>
+            </div>
+          </li>
+          <li class="image">
+            <img src="./images/img4.jpg"
+                 alt="4-worker"
+                 width="264"
+                 height="260"
+                 class="ourteam-item-img" />
+            <div class="container-team-list">
+              <h3 class="headteam">Daniel Wilson</h3>
+              <p class="teamed">UI Designer</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- Section-4 -->
-    <section>
-      <h2 class="our-portfolio">Our Portfolio</h2>
-      <ul>
-        <li>
-          <img src="./images/bankingapp.jpg"
-               alt="Banking App"
-               width="360" />
-          <h3 class="cart-title">Banking App</h3>
-          <p class="cart-content">App</p>
-        </li>
-        <li>
-          <img src="./images/cashless.jpg"
-               alt="Cashless Payment"
-               width="360" />
-          <h3 class="cart-title">Cashless Payment</h3>
-          <p class="cart-content">Marketing</p>
-        </li>
-        <li>
-          <img src="./images/mediation.jpg"
-               alt="Meditation App"
-               width="360" />
-          <h3 class="cart-title">Meditation App</h3>
-          <p class="cart-content">App</p>
-        </li>
-        <li>
-          <img src="./images/taxi.jpg"
-               alt="Taxi Service"
-               width="360" />
-          <h3 class="cart-title">Taxi Service</h3>
-          <p class="cart-content">Marketing</p>
-        </li>
-        <li>
-          <img src="./images/screen.jpg"
-               alt="Screen Illustrations"
-               width="360" />
-          <h3 class="cart-title">Screen Illustrations</h3>
-          <p class="cart-content">Design</p>
-        </li>
-        <li>
-          <img src="./images/courses.jpg"
-               alt="Online Courses"
-               width="360" />
-          <h3 class="cart-title">Online Courses</h3>
-          <p class="cart-content">Marketing</p>
-        </li>
-      </ul>
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="our-portfolio">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img src="./images/bankingapp.jpg"
+                 alt="Banking App"
+                 width="360"
+                 height="300" />
+            <div class="container-portfolio-list">
+              <h3 class="cart-title">Banking App</h3>
+              <p class="cart-content">App</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/cashless.jpg"
+                 alt="Cashless Payment"
+                 width="360"
+                 height="300" />
+            <div class="container-portfolio-list">
+              <h3 class="cart-title">Cashless Payment</h3>
+              <p class="cart-content">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/mediation.jpg"
+                 alt="Meditation App"
+                 width="360"
+                 height="300" />
+            <div class="container-portfolio-list">
+              <h3 class="cart-title">Meditation App</h3>
+              <p class="cart-content">App</p>
+            </div>
+          </li>
+          <li>
+            <img src="./images/taxi.jpg"
+                 alt="Taxi Service"
+                 width="360"
+                 height="300" />
+            <div class="container-portfolio-list">
+              <h3 class="cart-title">Taxi Service</h3>
+              <p class="cart-content">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/screen.jpg"
+                 alt="Screen Illustrations"
+                 width="360"
+                 height="300" />
+            <div class="container-portfolio-list">
+              <h3 class="cart-title">Screen Illustrations</h3>
+              <p class="cart-content">Design</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/courses.jpg"
+                 alt="Online Courses"
+                 width="360"
+                 height="300" />
+            <div class="container-portfolio-list">
+              <h3 class="cart-title">Online Courses</h3>
+              <p class="cart-content">Marketing</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <!-- Footer -->
   <footer class="footer">
-    <a href="./index.html"
-       class="logo"> Web <span class="studio-footer">Studio</span> </a>
-    <p class="footer-text">
-      Increase the flow of customers and sales for your business with digital
-      marketing & growth solutions.
-    </p>
+    <div class="container">
+      <a href="./index.html"
+         class="logo"> Web <span class="studio-footer">Studio</span> </a>
+      <p class="footer-text">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+    </div>
   </footer>
 </body>
 

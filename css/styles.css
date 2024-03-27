@@ -1,22 +1,65 @@
-body {box-s
-  font-family: "Raleway", sans-serif;
+/** ===========BODY================**/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
+ ul, ol {list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/** ===============================**/
+
+/** ===========HEADER==============**/
+/** ===========NAV=================**/
+
+.header-container {
+  display: flex;
+  align-items: center;}
+
 .menu {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
 font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .studio {
@@ -47,6 +90,7 @@ line-height: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
   }
     .menu-nav-index:hover{
     color: #404bbf;
@@ -55,20 +99,34 @@ line-height: normal;
     color: #404bbf;
   }
  /* .menu-nav-index */
- 
+ .contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.social-links {display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 40px
+}
 .contacts {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 font-style: normal;
+padding: 24px 0;
+display: block;
+
 }
 .social-links :hover {
   color: #404bbf;
+  text-decoration: none;
 }
 .social-links :focus {
   color: #404bbf;
+  text-decoration: none;
 }
 
 /* <!-- Section-1 --> */
@@ -85,6 +143,10 @@ background: #2e2f42;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
+
   }
 .botton {
   background-color: #4D5AE5;
@@ -95,6 +157,14 @@ background: #2e2f42;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 0 auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+
 
 }
 
@@ -111,6 +181,7 @@ background: #2e2f42;
 /* <!-- Section-2 --> */
 
 .light-bg {
+  padding: 120px 0;
 }
 
 .advantages {
@@ -124,6 +195,7 @@ background-color: #F4F4FD;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -137,6 +209,9 @@ color: #434455;
 /* <!-- Sektion-3 --> */
 .section-sss {
   background-color: #F4F4FD;
+  padding-bottom: 120px;
+  padding-top: 120px;
+
 }
 
 .our-team {
@@ -147,10 +222,16 @@ color: #434455;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+
 }
 
 .image {
   background-color: #FFFFFF;
+  width: calc((100% - 72px) / 3);
+  border-radius: 0 0 4px 4px;
+
 }
 
 .headteam {
@@ -169,9 +250,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+text-transform: capitalize;
+margin-bottom: 8px;
 }
 
 /* <!-- Sektion-4 --> */
+
+.portfolio {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
 .our-portfolio {
 font-weight: 700;
 font-size: 36px;
@@ -180,6 +269,23 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
+margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+.container-portfolio-list {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .cart-title {
@@ -188,7 +294,10 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
+text-transform: capitalize;
 }
+
 .cart-content {
 font-weight: 400;
 font-size: 16px;
@@ -201,6 +310,8 @@ color: #434455;
 
 .footer {
 background: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .footer-text {
@@ -210,6 +321,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+max-width: 264px;
 }
 
 .studio-footer {
