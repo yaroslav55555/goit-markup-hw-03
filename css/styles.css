@@ -41,13 +41,24 @@ a {
 /** ===========HEADER==============**/
 /** ===========NAV=================**/
 
-.header-container {
-  display: flex;
-  align-items: center;}
+header  {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header-container {
+display: flex;
+align-items: center;}
 
 .menu {
+display: flex;
+align-items: center;
+}
+.menu-elements {
   display: flex;
-  align-items: center;
+  gap: 40px;
+}
+.menu-nav-index {display: block;
+  padding: 24px 0;
 }
 
 .logo {
