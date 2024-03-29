@@ -47,7 +47,9 @@ header  {
 
 .container-header-container {
 display: flex;
-align-items: center;}
+align-items: center;
+width: 1158px
+}
 
 .menu {
 display: flex;
@@ -144,6 +146,7 @@ display: block;
 
 .box-hero-image {
 background: #2e2f42;
+padding: 188px 0
 }
 
 .hero-image {
