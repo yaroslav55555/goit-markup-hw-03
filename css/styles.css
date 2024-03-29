@@ -43,7 +43,7 @@ header  {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-header-container {
+.container {
 display: flex;
 align-items: center;
 width: 1158px;
@@ -87,7 +87,7 @@ font-family: "Raleway", sans-serif;
 
 .menu-elements {
 background: #ffffff;
-text-align: c;
+text-align: center;
 line-height: normal;
 }
 
