@@ -8,7 +8,7 @@ h6,
 p {
   margin: 0;
 }
-container {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -193,8 +193,10 @@ padding: 188px 0
 
 /* <!-- Section-2 --> */
 
-.light-bg {
-  padding: 120px 0;
+.section-bg {
+  background-color: #F4F4FD;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .advantages {
