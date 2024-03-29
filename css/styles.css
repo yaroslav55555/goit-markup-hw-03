@@ -329,8 +329,7 @@ row-gap: 48px;
 .container-portfolio-list {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none;
-}
+  border-top: none;}
 
 .cart-title {
 font-weight: 500;
@@ -373,5 +372,5 @@ max-width: 264px;
 
 .studio-footer {
   color: #f4f4fd;
-  display: inline-block; 
+  display:inline-block; 
 }
