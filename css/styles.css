@@ -226,7 +226,7 @@ color: #434455;
   background-color: #F4F4FD;
   padding-bottom: 120px;
   padding-top: 120px;
-
+margin-bottom: 72px;
 }
 
 .our-team {
@@ -325,8 +325,10 @@ color: #434455;
 
 .footer {
 background: #2e2f42;
-padding-top: 100px;
-padding-bottom: 100px;
+/* width: 1440px;
+height: 312px; */
+padding: 100px 0;
+
 }
 
 .footer-text {
@@ -337,8 +339,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
+
 }
 
 .studio-footer {
   color: #f4f4fd;
+  display: inline-block; 
 }
