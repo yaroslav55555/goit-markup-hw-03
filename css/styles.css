@@ -10,9 +10,9 @@ p {
 }
 .container {
   width: 1158px;
+  margin: 0 auto
   padding: 0 15px;
-  margin: 0 auto;
-}
+  }
 
 img {
   display: block;
@@ -48,7 +48,9 @@ header  {
 .container-header-container {
 display: flex;
 align-items: center;
-width: 1158px
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
 }
 
 .menu {
