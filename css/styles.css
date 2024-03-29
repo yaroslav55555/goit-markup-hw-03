@@ -201,7 +201,13 @@ padding: 188px 0
 
 .advantages {
 background-color: #F4F4FD;
+display: flex;
+gap: 24px;
 }
+.icon {
+  width: calc((100% - 72px) / 4)
+}
+
 
 .feature-text {
   font-family: "Roboto", sans-serif;
