@@ -234,6 +234,7 @@ margin-bottom: 8px;}
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4)
 }
 
 .text {
@@ -264,7 +265,7 @@ color: #434455;
   margin-bottom: 72px;
 }
 
-.our-team.list {
+.our-team-list {
   display: flex;
   gap: 24px;
 }
