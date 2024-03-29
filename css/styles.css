@@ -88,7 +88,6 @@ font-family: "Raleway", sans-serif;
 }
 
 .menu-elements {
-
 background: #ffffff;
 text-align:  center;
 line-height: normal;
@@ -123,7 +122,7 @@ line-height: normal;
   align-content: flex-start;
   justify-content: flex-end;
   flex-direction: row;
-  gap: 40px
+  gap: 40px;
 }
 .contacts {
 font-size: 16px;
@@ -192,22 +191,40 @@ padding: 188px 0
   }
 
 /* <!-- Section-2 --> */
-
-.section-bg {
-  background-color: #F4F4FD;
-  padding-bottom: 120px;
+.container .section-bg {
   padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-bg {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.advantages {
+.advantages {display: none;
 background-color: #F4F4FD;
-display: flex;
-gap: 24px;
-}
-.icon {
-  width: calc((100% - 72px) / 4)
+margin-bottom: 8px;}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
+.text-box {
+ display: flex;
+ gap: 24px;
+}
+
+.text-box-element {
+  width: calc((100% - 72px) / 4); 
+}
 
 .feature-text {
   font-family: "Roboto", sans-serif;
