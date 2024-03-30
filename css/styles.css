@@ -46,6 +46,7 @@ header  {
 .container {
 width: 1158px;
 margin: 0 auto;
+padding: 0 15px 0 15px;
 }
 
 .header-container {
@@ -56,7 +57,7 @@ margin: 0 auto;
 }
 
 
-style {
+.style {
   display: flex;
   align-items: center;
 }
