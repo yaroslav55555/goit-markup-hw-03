@@ -8,11 +8,7 @@ h6,
 p {
   margin: 0;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  }
+
 
 img {
   display: block;
@@ -44,8 +40,6 @@ header  {
 }
 
 .container {
-display: flex;
-align-items: center;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
@@ -368,10 +362,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
-
 }
-
-.logo {display: inline-block;}
 
 .studio-footer {
   color: #f4f4fd;
