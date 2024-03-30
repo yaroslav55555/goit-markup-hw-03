@@ -13,7 +13,6 @@ p {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 
@@ -27,9 +26,9 @@ a {
   text-decoration: none;
 }
 
- ul, ol {list-style: none;
-  margin: 0;
-  padding: 0;
+ul {list-style: none;
+margin: 0;
+padding-left: 0;
 }
 
 
@@ -68,14 +67,16 @@ display: flex;
 
 .logo {
 font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  padding: 24px 0;
-  margin-right: 76px;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5; 
+margin-right: 76px;
+padding-top: 24px;
+padding-bottom: 24px;
+text-decoration: none;
 }
 
 .studio {
@@ -85,27 +86,36 @@ font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  text-transform: uppercase;
-}
+  }
 
 .menu-elements {
+flex-direction: column;
 background: #ffffff;
-text-align: center;
+text-align:  center;
 line-height: normal;
+display: flex;
+flex-direction: row;
+gap: 40px;
 }
 
 .email-telefon {
     background: #ffffff;
     color: #434455;
+    margin-right: 40px;
+    text-decoration: none;
   }
   /* .menu-nav-index */
   .menu-nav-index{
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: block;
+    text-decoration: none;
   }
     .menu-nav-index:hover{
     color: #404bbf;
@@ -115,33 +125,26 @@ line-height: normal;
   }
  /* .menu-nav-index */
  .contacts {
-  font-style: normal;
-  margin-left: auto;
-}
-
-.social-links {display: flex;
-  align-content: flex-start;
-  justify-content: flex-end;
-  flex-direction: row;
-  gap: 40px;
-}
-.contacts {
+  font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 font-style: normal;
-padding: 24px 0;
-display: block;
-
+margin-left: auto;
 }
+
+.social-links {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+}
+
 .social-links :hover {
   color: #404bbf;
-  text-decoration: none;
 }
 .social-links :focus {
   color: #404bbf;
-  text-decoration: none;
 }
 
 /* <!-- Section-1 --> */
