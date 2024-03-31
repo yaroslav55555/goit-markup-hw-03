@@ -53,8 +53,7 @@ padding: 0 15px 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 15px 0 15px;
-}
+    }
 
 .menu {
 align-items: center;
@@ -312,9 +311,6 @@ margin-bottom: 8px;
 .portfolio {
   padding: 120px 0 120px 0;
 }
-
-.container {padding-top: 120px;
-  padding-bottom: 120px;}
 
 .our-portfolio {
 font-weight: 700;
