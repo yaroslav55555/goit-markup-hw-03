@@ -68,7 +68,7 @@ display: flex;
 }
 
 .logo {
-font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -103,12 +103,11 @@ gap: 40px;
 .email-telefon {
     background: #ffffff;
     color: #434455;
-    margin-right: 40px;
     text-decoration: none;
   }
   /* .menu-nav-index */
   .menu-nav-index{
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -164,6 +163,8 @@ padding: 188px 0
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   max-width: 496px;
   margin: 0 auto;
@@ -256,7 +257,6 @@ color: #434455;
   background-color: #F4F4FD;
   padding-bottom: 120px;
   padding-top: 120px;
-  margin-bottom: 72px;
 }
 
 .our-team {
